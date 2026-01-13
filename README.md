@@ -39,4 +39,9 @@ Finds objects of specified type and returns an array.
 - `FindObjectsOfType<TYPE>`
 - Replace TYPE with the type you're looking for
 
+Loads a scene.
+- `SceneManager.LoadScene(SCENE_NAME);`
+- Replace SCENE_NAME with your scene-to-load's name
+- Remember to have `using UnityEngine.SceneManagement;`
+
 Starter project by [L1Ryx](https://github.com/l1ryx).
