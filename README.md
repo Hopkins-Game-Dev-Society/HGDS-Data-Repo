@@ -26,4 +26,7 @@ _Heist 2_, this time featuring Nolan's.
 Put this above your ScriptableObject class so you can create it in your "Create New" menu in Unity!
 - `[CreateAssetMenu(menuName = "Folder/Name")]`
 
+Marks this GameObject as "Don't Destroy on Load", meaning it won't be destroyed when we switch scenes.
+- `DontDestroyOnLoad(gameObject);`
+
 Starter project by [L1Ryx](https://github.com/l1ryx).
