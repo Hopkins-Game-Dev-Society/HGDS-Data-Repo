@@ -18,7 +18,13 @@ _Heist 2_, this time featuring Nolan's.
   <summary> ⚠️ SPOILERS: The Task (click to expand) </summary>
   ---
   
-  I'm still thinking... hopefully I don't forget to update this.
+  Add one gameplay feature that can be scaled in difficulty between levels. You can use the same feature from before if you were here from last time! Author your data with ScriptableObjects. Feel free to scale other things, like player/enemy movement speed too!
+
+  The end goal is to have three levels, with winning each one leading to the next one. Each level should be more difficult than the one from before. In addition, you should have an ending scene (could just be a UI scene saying you won), and bonus points for having a starting menu scene too! More important things:
+  - Move around the levels as much as you want to make them different!
+  - Look up anything, and important code from today is below.
+  - Ideally we'll have 40 minutes to do this?
+  - Lmk if I can re-explain things! Data is a pretty dense topic but pretty important
 
 </details>
 
