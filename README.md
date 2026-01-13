@@ -24,6 +24,6 @@ _Heist 2_, this time featuring Nolan's.
 
 ## Important Code!
 Put this above your ScriptableObject class so you can create it in your "Create New" menu in Unity!
-- `[CreateAssetMenu(menuName = "Heist/Guard Type")]`
+- `[CreateAssetMenu(menuName = "Folder/Name")]`
 
 Starter project by [L1Ryx](https://github.com/l1ryx).
