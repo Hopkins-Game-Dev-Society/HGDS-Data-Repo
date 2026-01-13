@@ -7,9 +7,12 @@ _Heist 2_, this time featuring Nolan's.
   <summary> What We'll Do Together (click to expand) </summary>
   ---
 
-  Use ScriptableObjects, events, and scenes when possible.
+  Use ScriptableObjects, session data, and scenes when possible.
   
 </details>
+
+
+
 
 <details>
   <summary> ⚠️ SPOILERS: The Task (click to expand) </summary>
@@ -18,5 +21,9 @@ _Heist 2_, this time featuring Nolan's.
   I'm still thinking... hopefully I don't forget to update this.
 
 </details>
+
+## Important Code!
+Put this above your ScriptableObject class so you can create it in your "Create New" menu in Unity!
+- `[CreateAssetMenu(menuName = "Heist/Guard Type")]`
 
 Starter project by [L1Ryx](https://github.com/l1ryx).
