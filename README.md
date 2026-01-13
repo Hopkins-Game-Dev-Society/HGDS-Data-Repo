@@ -24,9 +24,19 @@ _Heist 2_, this time featuring Nolan's.
 
 ## Important Code!
 Put this above your ScriptableObject class so you can create it in your "Create New" menu in Unity!
-- `[CreateAssetMenu(menuName = "Folder/Name")]`
+- `[CreateAssetMenu(menuName = "FOLDER/NAME")]`
+- Replace FOLDER with your folder name in the menu
+- Replace NAME with your SO's name in the menu
 
 Marks this GameObject as "Don't Destroy on Load", meaning it won't be destroyed when we switch scenes.
 - `DontDestroyOnLoad(gameObject);`
+
+Finds object of specified type and returns it. 
+- `FindObjectOfType<TYPE>`
+- Replace TYPE with the type you're looking for
+
+Finds objects of specified type and returns an array.
+- `FindObjectsOfType<TYPE>`
+- Replace TYPE with the type you're looking for
 
 Starter project by [L1Ryx](https://github.com/l1ryx).
